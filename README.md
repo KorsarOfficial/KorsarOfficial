@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Hi there and welcome to my GitHub page 👋</h1>
-  <img src="https://i.pinimg.com/originals/71/57/d6/7157d6fba5585ec3adcaf2da5f341043.png"/>
+  <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/csharp.gif"/>
   </br>
   <img src="https://komarev.com/ghpvc/?username=Flexlug&style=flat-square&color=blue" alt=""/>
 </div>
