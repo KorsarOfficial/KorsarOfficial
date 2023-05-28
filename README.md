@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hi there and welcome to my GitHub page 👋</h1>
+  <h1>嗨，欢迎来到我的GitHub页面 👋</h1>
   <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/csharp.gif"/>
   </br>
   <img src="https://komarev.com/ghpvc/?username=Flexlug&style=flat-square&color=blue" alt=""/>
