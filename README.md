@@ -1,11 +1,11 @@
 <div align="center">
-  <h1>Hola y bienvenidos a mi página de GitHub 👋</h1>
+  <h1>Hallo und willkommen auf meiner Github 👋</h1>
   <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/csharp.gif"/>
   </br>
   <img src="https://komarev.com/ghpvc/?username=Flexlug&style=flat-square&color=blue" alt=""/>
 </div>
 
-### :hammer_and_wrench: Lenguajes y Herramientas :
+### :hammer_and_wrench: Sprachen und Werkzeuge :
 
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/>
