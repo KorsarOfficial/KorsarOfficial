@@ -8,7 +8,7 @@
 ### :hammer_and_wrench: Sprachen und Werkzeuge :
 
 <div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg](https://user-images.githubusercontent.com/25181517/192106070-46255bcf-65e6-4c6b-a296-bf8d0d8fb2a7.png" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" height="40"/>
   <img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" width="40" height="40"/>
   <img src="https://avaloniaui.net/img/logo/avalonia-white-purple.svg" width="40" height="40"/>
