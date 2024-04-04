@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Hallo und willkommen auf meiner Github:wave:</h1>
+  <h1>Hallo und willkommen auf meiner Github :wave: </h1>
   <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/guts.gif"/>
   </br>
   <img src="https://komarev.com/ghpvc/?username=Flexlug&style=flat-square&color=blue" alt=""/>
