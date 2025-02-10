@@ -1,6 +1,6 @@
 <div align="center">
   <h1></h1>
-  <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/pray.gif"/>
+  <img src="https://github.com/KorsarOfficial/KorsarOfficial/blob/main/geometricks-shapes.gif"/>
   </br>
   <img src="https://komarev.com/ghpvc/?username=Flexlug&style=flat-square&color=blue" alt=""/>
 </div>
