@@ -230,6 +230,33 @@ L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_{\Omega} f_r(\mathb
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- FOUNDATIONS (KNUTH)                                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## $\textcolor{58a6ff}{\textbf{Foundations}}$ $\mathcal{F}$ — Intellectual Bedrock
+
+```math
+\text{Knowledge} = \int_{0}^{\infty} \text{Knuth}(t)\, dt
+```
+
+```math
+\mathcal{F} = \left\{ \text{TAOCP}_1,\; \text{TAOCP}_2,\; \text{TAOCP}_3,\; \text{TAOCP}_{4\text{A}} \right\}
+```
+
+| $\text{Volume}$ | $\text{Title}$ | $\text{Domain}$ |
+|:---:|:---|:---|
+| $1$ | Fundamental Algorithms | Data structures, mathematical foundations, MIX |
+| $2$ | Seminumerical Algorithms | Random numbers, arithmetic, floating point |
+| $3$ | Sorting and Searching | Sorting, searching, optimal algorithms |
+| $4\text{A}$ | Combinatorial Algorithms | Combinatorics, generating functions, BDDs |
+
+```math
+\text{Knuth} \to \text{foundation} \quad \Longrightarrow \quad \text{everything else} \to \text{applied corollary}
+```
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- PROOF (CONTRIBUTION SNAKE)                                         -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
