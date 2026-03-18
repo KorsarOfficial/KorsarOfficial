@@ -9,7 +9,7 @@
 <!-- TYPING SVG -->
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=%E2%88%80+problem+%E2%88%88+%E2%84%9D%2C+%E2%88%83+solution+%E2%88%88+C%2B%2B;lim(n%E2%86%92%E2%88%9E)+skills(n)+%3D+%E2%88%9E;%E2%88%82(code)%2F%E2%88%82(time)+%3E+0;%E2%88%AB+knowledge+dt+%3D+experience+%2B+C&font=JetBrains+Mono&center=true&width=520&height=45&color=58a6ff&vCenter=true&duration=3500&pause=1200)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=%E2%88%80+problem+%E2%88%88+%E2%84%9D%2C+%E2%88%83+solution+%E2%88%88+C%2B%2B;lim(n%E2%86%92%E2%88%9E)+skills(n)+%3D+%E2%88%9E;%E2%88%82(code)%2F%E2%88%82(time)+%3E+0;%E2%88%AB+knowledge+dt+%3D+experience+%2B+C&font=JetBrains+Mono&center=true&width=520&height=45&color=58a6ff&vCenter=true&duration=3500&pause=1200" alt="Typing SVG" /></a>
 
 </div>
 
@@ -22,16 +22,16 @@
 ## $\textcolor{58a6ff}{\textbf{Definition 1.1}}$ — The Developer
 
 ```math
-\text{Korsar} : \mathbb{P}roblems \longrightarrow \mathbb{S}olutions
+\text{Korsar} : \mathbb{P}\text{roblems} \longrightarrow \mathbb{S}\text{olutions}
 ```
 
-$$
+```math
 \text{Let } \mathcal{K} = \big\langle\, \text{Systems Programming},\ \text{Engine Development},\ \text{Low-Level Optimization} \,\big\rangle
-$$
+```
 
-$$
+```math
 \text{s.t. } \forall\, p \in \mathcal{P}(\text{challenges}),\ \exists\, f \in \mathcal{K} : f(p) \to \text{solution} \quad \blacksquare
-$$
+```
 
 ---
 
@@ -41,17 +41,11 @@ $$
 
 ## $\textcolor{58a6ff}{\textbf{Axiom Set}}$ $\Sigma$ — Technology Stack
 
-<div align="center">
-
-$$
-\boxed{\Sigma_{\text{core}} = \Big\{ \text{C}^{++},\; \text{C},\; \text{x86 ASM} \Big\}}
-$$
-
-</div>
+```math
+\boxed{\Sigma_{\text{core}} = \left\{ \text{C}^{++},\; \text{C},\; \text{x86 ASM} \right\}}
+```
 
 <div align="center">
-
-<!-- CORE LANGUAGES -->
 
 ![C++](https://img.shields.io/badge/C++-∞-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-∞-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
@@ -60,19 +54,15 @@ $$
 
 <br/>
 
-<div align="center">
-
-$$
-\Sigma_{\text{engine}} = \Big\{ \text{OpenGL},\; \text{SDL},\; \text{GLFW},\; \text{FMod},\; \text{CMake} \Big\}
-$$
-
-</div>
+```math
+\Sigma_{\text{engine}} = \left\{ \text{OpenGL},\; \text{SDL},\; \text{GLFW},\; \text{FMod},\; \text{CMake} \right\}
+```
 
 <div align="center">
 
 ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white)
-![SDL](https://img.shields.io/badge/SDL-173556?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
+![SDL](https://img.shields.io/badge/SDL2-173556?style=for-the-badge&logoColor=white)
 ![GLFW](https://img.shields.io/badge/GLFW-E86E2C?style=for-the-badge&logoColor=white)
 ![FMod](https://img.shields.io/badge/FMod-000000?style=for-the-badge&logoColor=white)
 
@@ -80,13 +70,9 @@ $$
 
 <br/>
 
-<div align="center">
-
-$$
-\Sigma_{\text{tools}} = \Big\{ \text{Git},\; \text{Linux},\; \text{Visual Studio},\; \text{MSYS2} \Big\}
-$$
-
-</div>
+```math
+\Sigma_{\text{tools}} = \left\{ \text{Git},\; \text{Linux},\; \text{Visual Studio},\; \text{MSYS2} \right\}
+```
 
 <div align="center">
 
@@ -99,13 +85,9 @@ $$
 
 <br/>
 
-<div align="center">
-
-$$
-\Sigma_{\text{exploring}} = \Big\{ \text{ABAP},\; \text{Taichi Lang} \Big\}
-$$
-
-</div>
+```math
+\Sigma_{\text{exploring}} = \left\{ \text{ABAP},\; \text{Taichi Lang} \right\}
+```
 
 <div align="center">
 
@@ -128,13 +110,13 @@ $$
 \text{DegraEngine} = \int_{\text{SDL}}^{\text{OpenGL}} \left( \text{Rendering} + \text{Audio} + \text{Input} \right) \, d(\text{frame})
 ```
 
-$$
-\text{where} \quad \text{Stack} = \Big\{ \text{C/C++},\;\text{Legacy OpenGL},\;\text{SDL},\;\text{GLFW},\;\text{FMod} \Big\}
-$$
+```math
+\text{where} \quad \text{Stack} = \left\{ \text{C/C++},\;\text{Legacy OpenGL},\;\text{SDL},\;\text{GLFW},\;\text{FMod} \right\}
+```
 
-$$
-\text{Features}(t) = \lim_{t \to \infty} \Big\{ \text{2D/3D Graphics},\;\text{ASCII Rendering},\;\text{Audio Engine} \Big\}
-$$
+```math
+\text{Features}(t) = \lim_{t \to \infty} \left\{ \text{2D/3D Graphics},\;\text{ASCII Rendering},\;\text{Audio Engine} \right\}
+```
 
 <div align="center">
 
@@ -192,15 +174,15 @@ $$
 
 <div align="center">
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/korsarofficial?theme=dark&font=JetBrains%20Mono&ext=activity&border=0&radius=10)](https://leetcode.com/u/korsarofficial)
+<a href="https://leetcode.com/u/korsarofficial"><img src="https://leetcard.jacoblin.cool/korsarofficial?theme=dark&font=JetBrains%20Mono&ext=activity&border=0&radius=10" alt="LeetCode Stats"/></a>
 
 </div>
 
-<div align="center">
-
-$$
+```math
 \text{Solution Space} \xrightarrow{\text{visualize}} \text{Miro Board}
-$$
+```
+
+<div align="center">
 
 [![Miro Board](https://img.shields.io/badge/𝑓(problems)_→_Miro_Board-050038?style=for-the-badge&logo=miro&logoColor=white)](https://miro.com/app/board/uXjVGcc9d58=/?share_link_id=838442415695)
 
@@ -242,9 +224,9 @@ P(n): \text{commit}(n) \implies \text{commit}(n+1) \quad \forall\, n \in \mathbb
 \Huge \blacksquare
 ```
 
-$$
+```math
 \text{Q.E.D.} \quad — \quad \textit{"Quod Erat Demonstrandum"}
-$$
+```
 
 <br/>
 
