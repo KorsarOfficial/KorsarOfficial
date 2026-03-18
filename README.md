@@ -22,7 +22,7 @@
 ## $\textcolor{58a6ff}{\textbf{Definition 1.1}}$ — The Developer
 
 ```math
-\text{Korsar} : \mathbb{P}\text{roblems} \longrightarrow \mathbb{S}\text{olutions}
+\text{Arthur} \in \mathbb{R}^{19} \quad \mid \quad \text{Korsar} : \mathbb{P}\text{roblems} \longrightarrow \mathbb{S}\text{olutions}
 ```
 
 ```math
