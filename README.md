@@ -26,7 +26,7 @@
 ```
 
 ```math
-\text{Let } \mathcal{K} = \big\langle\, \text{Systems Programming},\ \text{Engine Development},\ \text{Low-Level Optimization} \,\big\rangle
+\text{Let } \mathcal{K} = \big\langle\, \text{Systems Programming},\ \text{Engine Development},\ \text{Quantitative Analysis} \,\big\rangle
 ```
 
 ```math
@@ -42,26 +42,26 @@
 ## $\textcolor{58a6ff}{\textbf{Axiom Set}}$ $\Sigma$ — Technology Stack
 
 ```math
-\boxed{\Sigma_{\text{core}} = \left\{ \text{C}^{++},\; \text{C},\; \text{x86 ASM} \right\}}
+\boxed{\Sigma_{\text{core}} = \left\{ \text{C},\; \text{C}^{++},\; \text{x86 ASM} \right\}}
 ```
 
 <div align="center">
 
-![C++](https://img.shields.io/badge/C++-∞-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-∞-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 
 </div>
 
 <br/>
 
 ```math
-\Sigma_{\text{engine}} = \left\{ \text{OpenGL},\; \text{SDL},\; \text{GLFW},\; \text{FMod},\; \text{CMake} \right\}
+\Sigma_{\text{graphics}} = \left\{ \text{Vulkan},\; \text{OpenGL},\; \text{SDL},\; \text{GLFW},\; \text{FMod} \right\}
 ```
 
 <div align="center">
 
+![Vulkan](https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![SDL](https://img.shields.io/badge/SDL2-173556?style=for-the-badge&logoColor=white)
 ![GLFW](https://img.shields.io/badge/GLFW-E86E2C?style=for-the-badge&logoColor=white)
 ![FMod](https://img.shields.io/badge/FMod-000000?style=for-the-badge&logoColor=white)
@@ -71,15 +71,28 @@
 <br/>
 
 ```math
-\Sigma_{\text{tools}} = \left\{ \text{Git},\; \text{Linux},\; \text{Visual Studio},\; \text{MSYS2} \right\}
+\Sigma_{\text{quant}} = \left\{ \text{Algorithmic Trading},\; \text{Stochastic Models},\; \text{Time Series} \right\}
+```
+
+<div align="center">
+
+![Algo Trading](https://img.shields.io/badge/Algorithmic_Trading-00C853?style=for-the-badge&logoColor=white)
+![Quantitative](https://img.shields.io/badge/Quantitative_Finance-FF6F00?style=for-the-badge&logoColor=white)
+
+</div>
+
+<br/>
+
+```math
+\Sigma_{\text{tools}} = \left\{ \text{Git},\; \text{Linux},\; \text{CMake},\; \text{Visual Studio},\; \text{MSYS2} \right\}
 ```
 
 <div align="center">
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
-![MSYS2](https://img.shields.io/badge/MSYS2-6F42C1?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -99,28 +112,42 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- THEOREM (FLAGSHIP PROJECT)                                         -->
+<!-- THEOREM (FLAGSHIP PROJECT — KorsEngine)                            -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## $\textcolor{58a6ff}{\textbf{Theorem 2.1}}$ — DegraEngine
+## $\textcolor{58a6ff}{\textbf{Theorem 2.1}}$ — KorsEngine
 
-> *"A game engine is a proof that real-time rendering is decidable."*
+> *"Rendering is merely the numerical solution to the light transport equation."*
 
 ```math
-\text{DegraEngine} = \int_{\text{SDL}}^{\text{OpenGL}} \left( \text{Rendering} + \text{Audio} + \text{Input} \right) \, d(\text{frame})
+L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_{\Omega} f_r(\mathbf{x}, \omega_i, \omega_o)\, L_i(\mathbf{x}, \omega_i)\, (\omega_i \cdot \mathbf{n})\, d\omega_i
 ```
 
 ```math
-\text{where} \quad \text{Stack} = \left\{ \text{C/C++},\;\text{Legacy OpenGL},\;\text{SDL},\;\text{GLFW},\;\text{FMod} \right\}
+\text{KorsEngine} \subset \left\{ \text{C},\; \text{Vulkan API},\; \text{Compute Shaders},\; \text{Vulkan SDK} \right\}
 ```
 
 ```math
-\text{Features}(t) = \lim_{t \to \infty} \left\{ \text{2D/3D Graphics},\;\text{ASCII Rendering},\;\text{Audio Engine} \right\}
+\text{Status}(t) = \text{under development} \quad \mid \quad \text{License} = \text{MIT}
 ```
 
 <div align="center">
 
-[![DegraEngine](https://img.shields.io/badge/⟶_DegraEngine-Explore_the_Proof-58a6ff?style=for-the-badge)](https://github.com/KorsarOfficial/DegraEngine)
+[![KorsEngine](https://img.shields.io/badge/⟶_KorsEngine-3D_Vulkan_Engine-AC162C?style=for-the-badge&logo=vulkan&logoColor=white)](https://github.com/KorsarOfficial/KorsEngine)
+
+</div>
+
+<br/>
+
+### $\textcolor{58a6ff}{\textbf{Corollary 2.1.1}}$ — DegraEngine
+
+```math
+\text{DegraEngine} = \int_{\text{SDL}}^{\text{OpenGL}} \left( \text{2D/3D} + \text{Audio} + \text{ASCII} \right) \, d(\text{frame})
+```
+
+<div align="center">
+
+[![DegraEngine](https://img.shields.io/badge/⟶_DegraEngine-Legacy_OpenGL_Engine-5586A4?style=for-the-badge&logo=opengl&logoColor=white)](https://github.com/KorsarOfficial/DegraEngine)
 
 </div>
 
@@ -166,7 +193,7 @@
 <!-- COROLLARY (LEETCODE)                                               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## $\textcolor{58a6ff}{\textbf{Corollary 4.1}}$ — Algorithmic Complexity
+## $\textcolor{58a6ff}{\textbf{Lemma 4.1}}$ — Algorithmic Complexity
 
 ```math
 \forall\, \text{problem} \in \text{LeetCode},\quad T(n) \leq O(n \log n) \implies \text{Accepted} \;\checkmark
@@ -178,13 +205,27 @@
 
 </div>
 
+<br/>
+
 ```math
-\text{Solution Space} \xrightarrow{\text{visualize}} \text{Miro Board}
+\text{Solution Space} \xrightarrow[\text{decomposition}]{\text{visual}} \text{Miro Board}
 ```
 
 <div align="center">
 
-[![Miro Board](https://img.shields.io/badge/𝑓(problems)_→_Miro_Board-050038?style=for-the-badge&logo=miro&logoColor=white)](https://miro.com/app/board/uXjVGcc9d58=/?share_link_id=838442415695)
+<a href="https://miro.com/app/board/uXjVGcc9d58=/?share_link_id=838442415695">
+<table>
+<tr>
+<td align="center" style="border: none;">
+
+[![Miro Dashboard](https://img.shields.io/badge/📐_LeetCode_Problem_Map-Open_Miro_Dashboard-58a6ff?style=for-the-badge&logo=miro&logoColor=white)](https://miro.com/app/board/uXjVGcc9d58=/?share_link_id=838442415695)
+
+> **Visual decomposition of solved problems — patterns, complexity classes, solution strategies**
+
+</td>
+</tr>
+</table>
+</a>
 
 </div>
 
