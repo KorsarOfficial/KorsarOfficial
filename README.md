@@ -274,10 +274,10 @@ P(n): \text{commit}(n) \implies \text{commit}(n+1) \quad \forall\, n \in \mathbb
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/github-snake-dark.svg" />
+          srcset="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/math-rain-dark.svg" />
   <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/github-snake.svg" />
+          srcset="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/math-rain-light.svg" />
+  <img alt="math rain contribution graph" src="https://raw.githubusercontent.com/KorsarOfficial/KorsarOfficial/output/math-rain-dark.svg" />
 </picture>
 
 </div>

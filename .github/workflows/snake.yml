@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Math Rain Animation
 
 on:
   schedule:
@@ -13,13 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: KorsarOfficial
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          node-version: '20'
+
+      - name: Generate Math Rain SVGs
+        run: node scripts/math-rain.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: KorsarOfficial
+          OUTPUT_DARK: dist/math-rain-dark.svg
+          OUTPUT_LIGHT: dist/math-rain-light.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
