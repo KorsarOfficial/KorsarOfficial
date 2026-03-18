@@ -117,8 +117,6 @@
 
 ## $\textcolor{58a6ff}{\textbf{Theorem 2.1}}$ — KorsEngine
 
-> *"Rendering is merely the numerical solution to the light transport equation."*
-
 ```math
 L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_{\Omega} f_r(\mathbf{x}, \omega_i, \omega_o)\, L_i(\mathbf{x}, \omega_i)\, (\omega_i \cdot \mathbf{n})\, d\omega_i
 ```
