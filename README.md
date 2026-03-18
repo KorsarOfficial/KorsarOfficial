@@ -177,13 +177,6 @@ L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_{\Omega} f_r(\mathb
 
 </div>
 
-<br/>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=KorsarOfficial&theme=darkhub&column=7&no-frame=true&no-bg=true"/>
-
-</div>
 
 ---
 
