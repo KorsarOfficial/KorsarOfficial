@@ -243,12 +243,16 @@ L_o(\mathbf{x}, \omega_o) = L_e(\mathbf{x}, \omega_o) + \int_{\Omega} f_r(\mathb
 \mathcal{F} = \left\{ \text{TAOCP}_1,\; \text{TAOCP}_2,\; \text{TAOCP}_3,\; \text{TAOCP}_{4\text{A}} \right\}
 ```
 
+<div align="center">
+
 | $\text{Volume}$ | $\text{Title}$ | $\text{Domain}$ |
-|:---:|:---|:---|
+|:---:|:---:|:---:|
 | $1$ | Fundamental Algorithms | Data structures, mathematical foundations, MIX |
 | $2$ | Seminumerical Algorithms | Random numbers, arithmetic, floating point |
 | $3$ | Sorting and Searching | Sorting, searching, optimal algorithms |
 | $4\text{A}$ | Combinatorial Algorithms | Combinatorics, generating functions, BDDs |
+
+</div>
 
 ```math
 \text{Knuth} \to \text{foundation} \quad \Longrightarrow \quad \text{everything else} \to \text{applied corollary}
