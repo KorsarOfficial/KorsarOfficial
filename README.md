@@ -9,7 +9,7 @@
 <!-- TYPING SVG -->
 <br/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=%E2%88%80+problem+%E2%88%88+%E2%84%9D%2C+%E2%88%83+solution+%E2%88%88+C%2B%2B;lim(n%E2%86%92%E2%88%9E)+skills(n)+%3D+%E2%88%9E;%E2%88%82(code)%2F%E2%88%82(time)+%3E+0;%E2%88%AB+knowledge+dt+%3D+experience+%2B+C&font=JetBrains+Mono&center=true&width=520&height=45&color=58a6ff&vCenter=true&duration=3500&pause=1200" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?lines=%E2%88%80+problem+%E2%88%88+%E2%84%9D%2C+%E2%88%83+solution+%E2%88%88+C%2B%2B;%E2%88%82(code)%2F%E2%88%82(time)+%3E+0;%E2%88%AB+knowledge+dt+%3D+experience+%2B+C&font=JetBrains+Mono&center=true&width=520&height=45&color=58a6ff&vCenter=true&duration=3500&pause=1200" alt="Typing SVG" /></a>
 
 </div>
 
