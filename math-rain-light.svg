@@ -1,0 +1,754 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="961" height="349" viewBox="0 0 961 349">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="rain-clip">
+      <rect x="0" y="80" width="961" height="219" />
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff" rx="6"/>
+
+  <!-- Ambient background symbols -->
+  
+    <text x="335.5013023896644" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="10.317753198608731"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      λ
+      <animate attributeName="y" from="-20" to="369"
+               dur="28.756023581869172s" begin="12.83090508344851s" repeatCount="indefinite" />
+    </text>
+    <text x="550.4783475966237" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="15.370976951596507"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      e
+      <animate attributeName="y" from="-20" to="369"
+               dur="23.892053964504456s" begin="5.457618488709173s" repeatCount="indefinite" />
+    </text>
+    <text x="31.321746071305263" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="10.169351750630875"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∇
+      <animate attributeName="y" from="-20" to="369"
+               dur="21.72968677342913s" begin="7.335028299114857s" repeatCount="indefinite" />
+    </text>
+    <text x="369.9879516739337" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="15.689266444593581"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      β
+      <animate attributeName="y" from="-20" to="369"
+               dur="19.8787567344535s" begin="11.726204004594914s" repeatCount="indefinite" />
+    </text>
+    <text x="608.1906633780085" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="16.74553216135245"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ε
+      <animate attributeName="y" from="-20" to="369"
+               dur="20.343411060912636s" begin="10.433271520852301s" repeatCount="indefinite" />
+    </text>
+    <text x="494.2608547916854" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="12.42871787781566"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∞
+      <animate attributeName="y" from="-20" to="369"
+               dur="25.26359405206658s" begin="8.07893610383124s" repeatCount="indefinite" />
+    </text>
+    <text x="476.1985451094703" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="11.188887947997616"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∞
+      <animate attributeName="y" from="-20" to="369"
+               dur="22.68168750281515s" begin="1.533531593028744s" repeatCount="indefinite" />
+    </text>
+    <text x="924.3788092284743" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="16.456320637252468"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ε
+      <animate attributeName="y" from="-20" to="369"
+               dur="32.89907426261081s" begin="14.404529754194456s" repeatCount="indefinite" />
+    </text>
+    <text x="362.55876047794646" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="12.26246275334189"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      λ
+      <animate attributeName="y" from="-20" to="369"
+               dur="33.60495570107607s" begin="7.654450620107967s" repeatCount="indefinite" />
+    </text>
+    <text x="157.43884314983956" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="11.763068196635517"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∇
+      <animate attributeName="y" from="-20" to="369"
+               dur="15.55337252485307s" begin="11.260194062163597s" repeatCount="indefinite" />
+    </text>
+    <text x="115.75971585119302" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="16.707260367555897"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∇
+      <animate attributeName="y" from="-20" to="369"
+               dur="23.57001085027197s" begin="7.75387280988343s" repeatCount="indefinite" />
+    </text>
+    <text x="901.4549939445373" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="11.303680921213607"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∫
+      <animate attributeName="y" from="-20" to="369"
+               dur="21.862615875046465s" begin="14.586293168942282s" repeatCount="indefinite" />
+    </text>
+    <text x="752.4390955599171" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="11.219516585352086"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      φ
+      <animate attributeName="y" from="-20" to="369"
+               dur="28.5492965804167s" begin="5.205728247145254s" repeatCount="indefinite" />
+    </text>
+    <text x="255.49726327951166" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="17.96508487590646"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      Δ
+      <animate attributeName="y" from="-20" to="369"
+               dur="19.462654336996227s" begin="1.0109235461284216s" repeatCount="indefinite" />
+    </text>
+    <text x="471.11807800879956" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="13.483611271138033"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∫
+      <animate attributeName="y" from="-20" to="369"
+               dur="30.299121704297995s" begin="7.541551433145385s" repeatCount="indefinite" />
+    </text>
+    <text x="282.07481096382867" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="14.00834073512783"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∞
+      <animate attributeName="y" from="-20" to="369"
+               dur="23.8224873640403s" begin="1.2671938800213944s" repeatCount="indefinite" />
+    </text>
+    <text x="770.1781030561067" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="13.662810008470055"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      Δ
+      <animate attributeName="y" from="-20" to="369"
+               dur="17.515099743196494s" begin="14.991268646610564s" repeatCount="indefinite" />
+    </text>
+    <text x="912.460458559917" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="12.380334215231228"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      θ
+      <animate attributeName="y" from="-20" to="369"
+               dur="30.38218482074212s" begin="12.931042168776102s" repeatCount="indefinite" />
+    </text>
+    <text x="77.98721294926615" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="11.69274259679765"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      θ
+      <animate attributeName="y" from="-20" to="369"
+               dur="32.4573590667254s" begin="10.049316958913085s" repeatCount="indefinite" />
+    </text>
+    <text x="508.7764033978619" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="10.47967570523601"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∇
+      <animate attributeName="y" from="-20" to="369"
+               dur="19.580957478872204s" begin="5.350709975340559s" repeatCount="indefinite" />
+    </text>
+    <text x="134.5598876248057" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="13.223409602221107"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      λ
+      <animate attributeName="y" from="-20" to="369"
+               dur="33.98729149347815s" begin="5.9979642267356414s" repeatCount="indefinite" />
+    </text>
+    <text x="572.3579560181022" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="17.09713739555993"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∂
+      <animate attributeName="y" from="-20" to="369"
+               dur="23.24348894712305s" begin="7.239436878204718s" repeatCount="indefinite" />
+    </text>
+    <text x="737.442495437514" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="10.717718407572713"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∞
+      <animate attributeName="y" from="-20" to="369"
+               dur="23.084349597117615s" begin="3.60565713494747s" repeatCount="indefinite" />
+    </text>
+    <text x="158.20254294577964" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="13.599926561703578"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∞
+      <animate attributeName="y" from="-20" to="369"
+               dur="34.33199297085753s" begin="1.664818086968738s" repeatCount="indefinite" />
+    </text>
+    <text x="17.35060178835129" y="-20"
+          font-family="JetBrains Mono, monospace" font-size="12.347375520428939"
+          fill="#d0d7de" text-anchor="middle" opacity="0.15">
+      ∇
+      <animate attributeName="y" from="-20" to="369"
+               dur="29.516424700271916s" begin="4.740695229639952s" repeatCount="indefinite" />
+    </text>
+
+  <!-- Title -->
+  <text x="480.5" y="55"
+        font-family="JetBrains Mono, monospace" font-size="14" font-weight="bold"
+        fill="#0969da" text-anchor="middle">
+    ∑ contributions(t) = 443
+  </text>
+  <text x="480.5" y="78"
+        font-family="JetBrains Mono, monospace" font-size="11"
+        fill="#57606a" text-anchor="middle">
+    ← symbols collide on commits → formulas emerge
+  </text>
+
+  <!-- Contribution Grid -->
+  <rect x="30" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="30" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="30" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="30" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="30" y="228" width="14" height="14" rx="2" ry="2" fill="#40c463" /><rect x="30" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="30" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="47" y="160" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="47" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="47" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="47" y="211" width="14" height="14" rx="2" ry="2" fill="#40c463" /><rect x="47" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="47" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="47" y="262" width="14" height="14" rx="2" ry="2" fill="#9be9a8" /><rect x="64" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="64" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="81" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="98" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="177" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="115" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="115" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="177" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="132" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="132" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="149" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="166" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="183" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="200" y="245" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="200" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="217" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="234" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="251" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="268" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="285" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="302" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="319" y="262" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="336" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="336" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="353" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="370" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="387" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="404" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="421" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="438" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="455" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="472" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="489" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="506" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="523" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="540" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="557" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="574" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="591" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="608" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="625" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="642" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="659" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="676" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="693" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="710" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="727" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="744" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="761" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="778" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="795" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="812" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="829" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="846" y="245" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="846" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="863" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="863" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="863" y="194" width="14" height="14" rx="2" ry="2" fill="#40c463" /><rect x="863" y="211" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="863" y="228" width="14" height="14" rx="2" ry="2" fill="#216e39" /><rect x="863" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="863" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="880" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="880" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="880" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="880" y="211" width="14" height="14" rx="2" ry="2" fill="#40c463" /><rect x="880" y="228" width="14" height="14" rx="2" ry="2" fill="#40c463" /><rect x="880" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="880" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="177" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="194" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="211" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="228" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="245" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="897" y="262" width="14" height="14" rx="2" ry="2" fill="#ebedf0" /><rect x="914" y="160" width="14" height="14" rx="2" ry="2" fill="#ebedf0" />
+
+  <!-- Collision animations (clipped) -->
+  <g clip-path="url(#rain-clip)">
+    
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∏
+      <animate attributeName="x" values="-117.5057798627066;37" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+      <animate attributeName="y" values="87.12435813085045;235" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      √n
+      <animate attributeName="x" values="176.61091058188697;37" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+      <animate attributeName="y" values="92.07156923210633;235" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.9283994107697584s"
+               begin="0s" repeatCount="indefinite" />
+    </text>
+    <text x="37" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#30a14e" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∏aᵢ
+      <animate attributeName="y" values="235;217" dur="8.265130596654565s"
+               begin="3.3391394991542946s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="8.265130596654565s" begin="3.3391394991542946s" repeatCount="indefinite" />
+    </text>
+    <circle cx="37" cy="235" r="0" fill="#30a14e" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="3.3391394991542946s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="3.3391394991542946s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      max
+      <animate attributeName="x" values="-126.4983928681152;54" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="y" values="83.82223110864172;167" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      tⁿ
+      <animate attributeName="x" values="175.56009170425182;54" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="y" values="113.06073652689076;167" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.476796455326416s"
+               begin="0.37s" repeatCount="indefinite" />
+    </text>
+    <text x="54" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∂L/∂q - d/dt(∂L/∂q̇) = 0
+      <animate attributeName="y" values="167;149" dur="9.698508893740964s"
+               begin="3.3252769870274537s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="9.698508893740964s" begin="3.3252769870274537s" repeatCount="indefinite" />
+    </text>
+    <circle cx="54" cy="167" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="3.3252769870274537s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="3.3252769870274537s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      inf
+      <animate attributeName="x" values="-145.69961935003488;54" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+      <animate attributeName="y" values="60.69269951968005;218" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      rⁿ
+      <animate attributeName="x" values="219.8623011390621;54" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+      <animate attributeName="y" values="124.08976599691118;218" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.595952039658841s"
+               begin="0.74s" repeatCount="indefinite" />
+    </text>
+    <text x="54" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#30a14e" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∇f
+      <animate attributeName="y" values="218;200" dur="10.580180437841321s"
+               begin="3.796559233710015s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="10.580180437841321s" begin="3.796559233710015s" repeatCount="indefinite" />
+    </text>
+    <circle cx="54" cy="218" r="0" fill="#30a14e" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="3.796559233710015s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="3.796559233710015s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      d/dx
+      <animate attributeName="x" values="-99.79914337316903;54" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+      <animate attributeName="y" values="106.31035581064536;269" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      f(x)
+      <animate attributeName="x" values="177.70754998076538;54" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+      <animate attributeName="y" values="88.87889526478403;269" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.501034092807705s"
+               begin="1.1099999999999999s" repeatCount="indefinite" />
+    </text>
+    <text x="54" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#40c463" text-anchor="middle" opacity="0" filter="url(#glow)">
+      xⁿ
+      <animate attributeName="y" values="269;251" dur="11.229608888618223s"
+               begin="4.085878978886549s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="11.229608888618223s" begin="4.085878978886549s" repeatCount="indefinite" />
+    </text>
+    <circle cx="54" cy="269" r="0" fill="#40c463" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="4.085878978886549s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="4.085878978886549s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∫
+      <animate attributeName="x" values="1.623286566582081;122" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+      <animate attributeName="y" values="76.94219369384666;184" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      tⁿ
+      <animate attributeName="x" values="314.211549197043;122" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+      <animate attributeName="y" values="122.14716598828872;184" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.3769687830606707s"
+               begin="1.48s" repeatCount="indefinite" />
+    </text>
+    <text x="122" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      eiπ + 1 = 0
+      <animate attributeName="y" values="184;166" dur="9.367796971713666s"
+               begin="4.35042346560157s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="9.367796971713666s" begin="4.35042346560157s" repeatCount="indefinite" />
+    </text>
+    <circle cx="122" cy="184" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="4.35042346560157s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="4.35042346560157s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∂
+      <animate attributeName="x" values="-30.839558700091082;139" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+      <animate attributeName="y" values="103.93986286035818;184" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      xⁱ
+      <animate attributeName="x" values="274.9135506729173;139" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+      <animate attributeName="y" values="62.24756451868984;184" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.010733757507569s"
+               begin="1.85s" repeatCount="indefinite" />
+    </text>
+    <text x="139" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      Rμν - ½gμνR = 8πGTμν
+      <animate attributeName="y" values="184;166" dur="8.688520909905408s"
+               begin="4.409123693881433s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="8.688520909905408s" begin="4.409123693881433s" repeatCount="indefinite" />
+    </text>
+    <circle cx="139" cy="184" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="4.409123693881433s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="4.409123693881433s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∂
+      <animate attributeName="x" values="63.30595222075165;207" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+      <animate attributeName="y" values="113.67910285360071;252" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      rⁿ
+      <animate attributeName="x" values="406.98378152970145;207" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+      <animate attributeName="y" values="110.32555090933393;252" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.302909194018776s"
+               begin="2.2199999999999998s" repeatCount="indefinite" />
+    </text>
+    <text x="207" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∑ₙ₌₀^∞ xⁿ/n! = eˣ
+      <animate attributeName="y" values="252;234" dur="10.499126793014437s"
+               begin="5.027472814915959s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="10.499126793014437s" begin="5.027472814915959s" repeatCount="indefinite" />
+    </text>
+    <circle cx="207" cy="252" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="5.027472814915959s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="5.027472814915959s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∫
+      <animate attributeName="x" values="134.913976557275;326" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+      <animate attributeName="y" values="92.21883371836482;269" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      λx
+      <animate attributeName="x" values="459.0203037425176;326" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+      <animate attributeName="y" values="90.22585338625734;269" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.4479975991278713s"
+               begin="2.59s" repeatCount="indefinite" />
+    </text>
+    <text x="326" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      Rμν - ½gμνR = 8πGTμν
+      <animate attributeName="y" values="269;251" dur="8.853030512545502s"
+               begin="5.52079795925869s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="8.853030512545502s" begin="5.52079795925869s" repeatCount="indefinite" />
+    </text>
+    <circle cx="326" cy="269" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="5.52079795925869s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="5.52079795925869s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∇
+      <animate attributeName="x" values="676.0692906346773;853" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+      <animate attributeName="y" values="75.30549047233447;252" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      cos ω
+      <animate attributeName="x" values="1003.9358183899221;853" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+      <animate attributeName="y" values="74.72482073439677;252" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.1132082652949813s"
+               begin="2.96s" repeatCount="indefinite" />
+    </text>
+    <text x="853" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      H ψ = E ψ
+      <animate attributeName="y" values="252;234" dur="9.566929268427536s"
+               begin="5.6062270255007345s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="9.566929268427536s" begin="5.6062270255007345s" repeatCount="indefinite" />
+    </text>
+    <circle cx="853" cy="252" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="5.6062270255007345s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="5.6062270255007345s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∏
+      <animate attributeName="x" values="716.1859736698451;870" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+      <animate attributeName="y" values="89.98868579106531;201" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      eⁿ
+      <animate attributeName="x" values="1052.6795800924206;870" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+      <animate attributeName="y" values="84.27259791071616;201" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="2.7571094554462254s"
+               begin="3.33s" repeatCount="indefinite" />
+    </text>
+    <text x="870" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#30a14e" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∏aᵢ
+      <animate attributeName="y" values="201;183" dur="11.796213840872907s"
+               begin="5.673543037129292s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="11.796213840872907s" begin="5.673543037129292s" repeatCount="indefinite" />
+    </text>
+    <circle cx="870" cy="201" r="0" fill="#30a14e" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="5.673543037129292s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="5.673543037129292s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∫
+      <animate attributeName="x" values="712.0084083712579;870" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+      <animate attributeName="y" values="65.16087271935208;218" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      tⁿ
+      <animate attributeName="x" values="1024.7714464349049;870" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+      <animate attributeName="y" values="116.73340215451005;218" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.018817263618746s"
+               begin="3.7s" repeatCount="indefinite" />
+    </text>
+    <text x="870" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      ∫₀^∞ e⁻ˣ²dx = √π/2
+      <animate attributeName="y" values="218;200" dur="9.091404699717685s"
+               begin="6.265994674075934s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="9.091404699717685s" begin="6.265994674075934s" repeatCount="indefinite" />
+    </text>
+    <circle cx="870" cy="218" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="6.265994674075934s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="6.265994674075934s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      log
+      <animate attributeName="x" values="702.5980475945196;870" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+      <animate attributeName="y" values="93.87214863343917;235" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      tⁿ
+      <animate attributeName="x" values="1010.327308201581;870" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+      <animate attributeName="y" values="75.03476999681622;235" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.1631072045997035s"
+               begin="4.07s" repeatCount="indefinite" />
+    </text>
+    <text x="870" font-family="JetBrains Mono, monospace" font-size="6.5"
+          fill="#0550ae" text-anchor="middle" opacity="0" filter="url(#glow)">
+      H ψ = E ψ
+      <animate attributeName="y" values="235;217" dur="11.930202751326227s"
+               begin="6.758641123909748s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="11.930202751326227s" begin="6.758641123909748s" repeatCount="indefinite" />
+    </text>
+    <circle cx="870" cy="235" r="0" fill="#0550ae" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="6.758641123909748s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="6.758641123909748s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      ∇
+      <animate attributeName="x" values="757.18838364292;887" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+      <animate attributeName="y" values="93.70077579530223;218" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      √n
+      <animate attributeName="x" values="1057.127405691887;887" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+      <animate attributeName="y" values="129.2201338058781;218" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.7272809871124974s"
+               begin="4.4399999999999995s" repeatCount="indefinite" />
+    </text>
+    <text x="887" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#30a14e" text-anchor="middle" opacity="0" filter="url(#glow)">
+      λe^(-λx)
+      <animate attributeName="y" values="218;200" dur="11.778060682449134s"
+               begin="7.6081888390456225s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="11.778060682449134s" begin="7.6081888390456225s" repeatCount="indefinite" />
+    </text>
+    <circle cx="887" cy="218" r="0" fill="#30a14e" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="7.6081888390456225s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="7.6081888390456225s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      lim
+      <animate attributeName="x" values="710.5469038695446;887" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+      <animate attributeName="y" values="79.44837358383955;235" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+    </text>
+    <text font-family="JetBrains Mono, monospace" font-size="10"
+          fill="#8b949e" text-anchor="middle" opacity="0">
+      √n
+      <animate attributeName="x" values="1034.6066910422978;887" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+      <animate attributeName="y" values="119.79048867365093;235" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.6;0.6;0"
+               keyTimes="0;0.15;0.75;1" dur="3.6378849806425912s"
+               begin="4.81s" repeatCount="indefinite" />
+    </text>
+    <text x="887" font-family="JetBrains Mono, monospace" font-size="8"
+          fill="#30a14e" text-anchor="middle" opacity="0" filter="url(#glow)">
+      P(A|B)
+      <animate attributeName="y" values="235;217" dur="11.171311737956684s"
+               begin="7.902202233546202s" repeatCount="indefinite" />
+      <animate attributeName="opacity"
+               values="0;0;1;1;0"
+               keyTimes="0;0.01;0.08;0.7;1"
+               dur="11.171311737956684s" begin="7.902202233546202s" repeatCount="indefinite" />
+    </text>
+    <circle cx="887" cy="235" r="0" fill="#30a14e" opacity="0">
+      <animate attributeName="r" values="0;12;0" dur="0.8s"
+               begin="7.902202233546202s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.3;0" dur="0.8s"
+               begin="7.902202233546202s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Bottom formula -->
+  <text x="480.5" y="337"
+        font-family="JetBrains Mono, monospace" font-size="10"
+        fill="#57606a" text-anchor="middle">
+    ∀ commit(t): ∃ formula(t) | complexity ∝ contributions
+  </text>
+</svg>
